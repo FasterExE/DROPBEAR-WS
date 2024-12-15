@@ -18,7 +18,7 @@ sudo mkdir /etc/ilyass
 sudo mkdir /etc/ilyass/ws
 # Update and install Dropbear
 echo "Updating package list and installing Dropbear and Node..."
-apt update -y && apt install dropbear -y && apt install node -y
+apt update -y && apt install dropbear -y && apt install nodejs -y
 
 # Configure Dropbear
 echo "Configuring Dropbear..."
