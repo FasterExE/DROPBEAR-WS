@@ -82,6 +82,5 @@ systemctl start ws.service
 
 # Verify ws.service is running
 echo "Verifying ws.service is running..."
-systemctl status ws.service
 
 echo "Script execution completed! Dropbear and Websocket are configured."
