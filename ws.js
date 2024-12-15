@@ -57,7 +57,7 @@ server.on('connection', function(socket) {
     var packetCount = 0;
     //var handshakeMade = false;
     var anu = "SCRIPT BY t.me/IlyassExE";
-    socket.write("HTTP/1.1 101 " + anu.fontcolor("blue") + "\r\nUpgrade: websocket\r\n\r\nSec-WebSocket-Accept: foo\r\n\r\n", function(err) {
+    socket.write("HTTP/1.1 101 " + anu.fontcolor("cyan") + "\r\nUpgrade: websocket\r\n\r\nSec-WebSocket-Accept: foo\r\n\r\n", function(err) {
         if(err) {
             console.log("[SWRITE] Failed to write response to " + socket.remoteAddress + ":" + socket.remotePort + ", error: " + err);
         }
